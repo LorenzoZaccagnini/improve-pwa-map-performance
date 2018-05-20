@@ -1,4 +1,4 @@
-# Improve your progressive map performance
+# Improve your PWA map performance
 
 In this repository you will find different solution to improve your PWA performance when using Google Maps
 
