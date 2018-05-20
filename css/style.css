@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #525c65;
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  padding: 15px;
+  min-width: 300px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 rgba(46, 61, 73, 0.15);
+  border-radius: 6px;
+}
+
+.card span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  color: #525c65;
+}
+
+#menu{
+  text-align: left;
+}
+
+#menu li {
+  padding: 10px;
+}
+
+/* ----------------- MAP PAGES ----------------- */
+header {
+  height: 40px;
+  background-color: #2B3D4A;
+  color: white;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_toggle{
+  position: absolute;
+  width: 30px;
+  right: 10px;
+}
+
+.btn_home{
+  position: absolute;
+  top: 5px;
+  width: 30px;
+  left: 10px;
+}
+
+.btn_home img{
+  width: 30px;
+}
+
+
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#map{
+  width: 100%;
+  height: 300px;
+}
+
+#static_map{
+  width: 100%;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.lorem{
+  padding: 15px;
+  text-align: left;
+  max-width: 600px;
+}
